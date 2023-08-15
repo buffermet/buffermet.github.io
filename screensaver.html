@@ -1,0 +1,9 @@
+<body>
+  <h1>click anywhere</h1>
+  <div style=background:black></div>
+  <script>
+    globalThis.addEventListener("click", function() {
+      document.querySelector("div").requestFullscreen();
+    });
+  </script>
+</body>
